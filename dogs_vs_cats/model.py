@@ -1,6 +1,8 @@
 import tensorflow as tf
 
-
+'''
+you could use more complex model instead,but the bottleneck may be the dataset.
+'''
 def inference(images, batch_size, num_classes, training=True):
     '''
     :param images: image batch 4D Tensor(batch_size,height,width,channel) tf.float32
