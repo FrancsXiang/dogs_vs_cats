@@ -5,7 +5,7 @@
 |model.py|the network framework&behavior|
 |training.py|As the name shows|
 |single_test.py|evaluate one image randomly from the test dataset|
-|evaluation.py|evvaluate the test dataset with batch form|
+|evaluation.py|evaluate the test dataset with batch form|
 |test.foler|storage of the test dataset|
 |train.folder|storage of the train dataset|
 |log.folder|storage of the record of model when training or evaluating|
