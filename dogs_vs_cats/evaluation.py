@@ -59,7 +59,7 @@ def run_testing():
         finally:
             coord.request_stop()
     coord.join(threads)
-    print('The average testing acc and loss respectively:%.2f' %
+    print('The average testing acc and loss respectively:%.2f %.2f' %
           ((TOTAL_ACC_SUM / MAX_STEPS), (TOTAL_LOSS_SUM / MAX_STEPS)))
 
 run_testing()
