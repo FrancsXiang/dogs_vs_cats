@@ -12,7 +12,7 @@ CAPACITY = 2000
 MAX_STEPS = 10000
 LEARNING_RATE = 0.0001
 '''
-you can use more complex model,but the bottleneck could be the datasets itself.
+you can use more complex model,but the bottleneck could be the datasets itself.haha
 '''
 def run_training():
     '''
