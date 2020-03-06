@@ -41,7 +41,7 @@ def run_single_test():
             return
         res = sess.run(logits)
         if (np.argmax(res, 1) == 0):
-            print('Prediction Result: cats')
+            print('Prediction Result: Cats')
         else:
             print('Prediction Result: Dogs')
     img = Image.open(file_name, 'r')
